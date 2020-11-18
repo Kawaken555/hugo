@@ -1,5 +1,6 @@
 # hugo
 
+* コンテナ起動
 ```
 docker-compose up -d
 ```
@@ -11,4 +12,12 @@ hugo new site test-blog
 ```
 cd themes
 git clone https://github.com/budparr/gohugo-theme-ananke.git
+```
+*  コンテナ内へ
+```
+docker exec -it hugo_hugo_1 /bin/bash
+```
+*  コンパイルしサーバーを起動
+```
+hugo server
 ```
