@@ -1,4 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "ja-JP"
-title = "My New Hugo Site"
+title = "congig.tomlのキー titleの値"
 theme = "gohugo-theme-ananke"
