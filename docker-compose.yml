@@ -3,7 +3,7 @@ services:
     hugo:
         image: klakegg/hugo:0.74.3-ubuntu
         volumes:
-            - ".:/src"
+            - "./test-blog:/src"
         entrypoint: bash
         ports:
             - "1313:1313"
