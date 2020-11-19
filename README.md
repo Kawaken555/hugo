@@ -22,7 +22,7 @@ hugo new site test-blog
 cd themes
 git clone https://github.com/budparr/gohugo-theme-ananke.git
 ```
-*  コンパイルしサーバーを起動
+*  ビルドしサーバーを起動
 ```
 hugo server
 ```
