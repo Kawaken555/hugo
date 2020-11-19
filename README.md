@@ -1,5 +1,9 @@
 # hugo
 
+* イメージをビルド  
+```
+docker-compose build --no-cache
+```
 * コンテナ起動
 ```
 docker-compose up -d
