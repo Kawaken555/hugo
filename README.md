@@ -13,7 +13,7 @@ docker-compose up -d
 docker exec -it hugo_hugo_1 /bin/bash
 ```
 
-* プロジェクトを作成
+* プロジェクト作成
 ```
 hugo new site test-blog
 ```
@@ -22,7 +22,7 @@ hugo new site test-blog
 cd themes
 git clone https://github.com/budparr/gohugo-theme-ananke.git
 ```
-*  ビルドしサーバーを起動
+*  ローカルサーバーを起動
 ```
 hugo server
 ```
